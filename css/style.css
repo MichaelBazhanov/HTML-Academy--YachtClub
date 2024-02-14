@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   color: #163152;
 }
-.user {
+/* .user {
   width: 36px;
   height: 36px;
   display: flex;
@@ -42,7 +42,7 @@ body {
   box-sizing: border-box;
   border-radius: 50%;
   border: 1px solid #00c6bd;
-}
+} */
 /* ======hero========= */
 .hero h1 {
   font-size: 44px;
@@ -59,6 +59,8 @@ body {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .event-command-time {
   margin: 0;
@@ -68,6 +70,9 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+}
+.event-command-img {
+  margin-bottom: 10px;
 }
 /* ===========event-adventure============ */
 .event-adventure h2 {
@@ -79,15 +84,20 @@ body {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
+  margin-top: 18.5px;
+  margin-bottom: 20px;
 }
 .event-adventure-time {
   margin: 0;
   padding: 0;
 }
-.event-command p time {
+.event-adventure p time {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+}
+.event-adventure-img {
+  margin-bottom: 10px;
 }
 /* ===========contacts============ */
 .contacts h2 {
