@@ -84,50 +84,45 @@ body {
   text-underline-offset: 15px;
   text-underline-position: under;
 }
-.new-photo-info {
+.post-img figcaption {
   font-size: 16px;
   line-height: 19px;
-  color: #8693A4;
+  color: #8693a4;
 }
-.news h3 {
+.post h3 {
   font-size: 22px;
   line-height: 26px;
 }
-.news p {
+.post p {
   font-size: 18px;
   line-height: 26px;
 }
-.new-title-commands {
+.post h4 {
   font-size: 20px;
   line-height: 26px;
 }
-.new-commands {
+.post ul {
   font-size: 18px;
   line-height: 26px;
 }
-.new-quote {
+.post blockquote {
   font-weight: bold;
   font-size: 26px;
   line-height: 36px;
   border-left: 2px solid #00c6bd;
   padding-left: 20px;
 }
-.new-author {
+.post-meta a {
   font-size: 16px;
   line-height: 19px;
-}
-.new-author img {
-  border-radius: 50%;
-}
-.new-author-name {
   font-weight: bold;
+  color: #163152;
+  text-decoration: none;
 }
-.new-date {
+.post-meta time {
+  font-size: 16px;
+  line-height: 19px;
   color: #8693a4;
-}
-.new-repost {
-  background-color: transparent;
-  border: none;
 }
 /* ===========contacts============ */
 .contacts h2 {
