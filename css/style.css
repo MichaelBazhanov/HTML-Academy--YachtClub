@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   color: #163152;
 }
-/* .user {
+/* .signin {
   width: 36px;
   height: 36px;
   display: flex;
@@ -46,11 +46,13 @@ body {
 /* ======hero========= */
 .hero h1 {
   font-size: 44px;
+  font-weight: normal;
   line-height: 60px;
   font-style: italic;
+  text-transform: uppercase;
 }
-/* =====event-command===== */
-.event-command h2 {
+/* =====blog-article===== */
+.blog-article h2 {
   font-size: 24px;
   line-height: 34px;
   font-weight: bold;
@@ -59,45 +61,11 @@ body {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
-.event-command-time {
-  margin: 0;
-  padding: 0;
-}
-.event-command p time {
+.blog-article-date {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-}
-.event-command-img {
-  margin-bottom: 10px;
-}
-/* ===========event-adventure============ */
-.event-adventure h2 {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: #00c6bd;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 15px;
-  text-underline-position: under;
-  margin-top: 18.5px;
-  margin-bottom: 20px;
-}
-.event-adventure-time {
-  margin: 0;
-  padding: 0;
-}
-.event-adventure p time {
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-.event-adventure-img {
-  margin-bottom: 10px;
 }
 /* ===========contacts============ */
 .contacts h2 {
@@ -110,20 +78,21 @@ body {
   text-underline-offset: 15px;
   text-underline-position: under;
 }
-.contacts-info {
+.contact-item {
   font-size: 16px;
   line-height: 22px;
 }
-.contacts-item h3 {
+.contact-item h3 {
   font-size: 16px;
+  line-height: 22px;
 }
-.contact-tel {
-  text-decoration: none;
-  color: #163152;
+.contact-item address {
+  font-style: normal;
 }
-.contact-email {
-  text-decoration: none;
+
+.contact-item a {
   color: #163152;
+  text-decoration: none;
 }
 /* =======social-network======== */
 /* .social-network h3 {
@@ -145,67 +114,24 @@ body {
   border-radius: 50%;
 } */
 /* ========main-footer========= */
-.company h2 {
+.main-footer {
+  font-size: 10px;
+  line-height: 12px;
+}
+.policy a {
+  color: #163152;
+  text-decoration: none;
+}
+.footer-navigation-topics {
+  font-size: 14px;
+  line-height: 16px;
+}
+.footer-navigation-topic h2 {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
-.company-navigation {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.company-navigation-item a {
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
+.footer-navigation-item a {
   color: #163152;
-}
-.yacht-club h2 {
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-.yacht-club-navigation {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.yacht-club-navigation-item a {
-  font-size: 14px;
-  line-height: 16px;
   text-decoration: none;
-  color: #163152;
-}
-.services h2 {
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-.services-navigation {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.services-navigation-item a {
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
-  color: #163152;
-}
-.regattas h2 {
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-.regattas-navigation {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.regattas-navigation-item a {
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
-  color: #163152;
 }
