@@ -24,7 +24,8 @@ for (const button of fontButtons) {
 // ### show/hidden button in ".block-article"
 let shortBlogArticles = document.querySelectorAll(".blog-article.short");
 for (const articles of shortBlogArticles) {
-  articles.onclick = function () {
+  let moreButton = articles.querySelector(".more");
+  moreButton.onclick = function () {
     articles.classList.remove("short");
   };
 }
